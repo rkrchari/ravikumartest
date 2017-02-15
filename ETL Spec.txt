@@ -1,0 +1,114 @@
+Extraction, Transformation, and Load (ETL) Specification
+Bureau of Information Systems
+
+<Project Name>
+
+•	Who is the business owner (The Client)?
+•	What is the business that the Client does?
+•	What business need, problem or objective will be addressed?
+•	Where do they want the data?
+•	When do they need it by?
+•	Were previous attempts made to integrate the data?
+1.2	Scope of Initiative
+Address in this section:
+•	The business process status
+•	Expected business objective
+•	Describe need for integration with any external system
+1.3	Resources
+Address in this section:
+•	Requesting Business Client
+•	Project Manager or Business Analyst
+•	Detailed specification of the operational source systems
+1.4	Definitions, Acronyms and Abbreviations
+Add items and terms that need to be defined in this section
+
+ 
+2.	TRANSFORMATION COMPONENT DOCUMENTATION
+[This section outlines a more detailed description of the processes that are currently utilized and the proposed processes developed to achieve the objectives of this initiative.]
+2.1	Data Import/Extract
+Address in this section:
+•	Database tables names
+•	File Exports names
+•	Transactions processes
+•	Special: parameter or control files
+2.2	Data Import Method
+Address in this section:
+•	Direct access by table or file on source system
+•	Extract from source
+•	File transferred
+•	Required permissions
+2.3	Data Acquisition
+Address in this section:
+•	What data is needed?
+•	Will technical data specifications be provided?
+o	Fixed length
+o	Comma Separated
+•	How will the data sets be identified and selected?
+•	How often are source systems updated?
+•	How much data can be expected?
+•	How often will the data be received?
+•	What state is the source system?
+o	Production?
+o	Testing – when will the design be finalized?
+•	When can a production extract be ready for use by the developer?
+•	Are there any specific bottlenecks to getting the data?
+ 
+Data Transform Specification
+Address in this section:
+•	Has any technical analysis been previously performed?
+•	Do design specification or data models exist?
+•	What kind of history or trending information is needed?
+•	Are there any known fields that require a derived calculation?
+2.4	Data Integrity
+Address in this section:
+•	How reliable is the source system data (e.g., empty fields, dates stored as text, invalid code values, text fields with odd or control characters, etc.)?
+•	Are the source data sets used by more than one data owner?
+•	How often does the source system change?
+•	How will changes be communicated to the users and development team?
+2.5	Data Refresh Frequency
+Address in this section:
+•	How often should the Data Warehouse process refresh?
+o	Daily
+o	Weekly
+o	Monthly
+o	Quarterly
+o	Semi-Annually
+o	Other
+ 
+2.6	Data Security
+Address in this section:
+•	Do monitoring requirements need to be satisfied?
+•	Are there any federally mandated HIPAA considerations?
+•	Is there need to build in additional privacy? 
+o	Encryption 
+o	Data masking
+o	Auditing
+o	Backups
+Data Target/Result
+Address in this section:
+•	How long will be data retention?
+•	How often can the data be purged?
+•	What interface will the Client/Users access the data?
+o	Cognos
+o	Reports
+o	Training
+o	Adhoc 
+o	other…
+•	Does the project data have an expiration date?
+3.	DATA QUALITY
+3.1	Performance Measures and Standards
+Address in this section:
+•	What measure will determine the success of this project?
+•	Do specific (Federal or otherwise) compliance measures exist?
+•	Do other specific outcomes exist?
+o	Expected Reports
+o	Totals and expected counts
+o	Technical comparison (e.g., using SQL, etc.)
+3.2	Resources
+Address in this section:
+•	Who will be performing the user acceptance testing?
+•	Do they have a timeline or window for testing?
+•	When will they be doing it?
+
+
+
