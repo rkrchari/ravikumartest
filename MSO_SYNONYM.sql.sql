@@ -1,0 +1,86 @@
+---------------------------------------------------------------
+--  Macro space Optimization - Creating Public Synonyms 
+--  all the MSO Tables
+---------------------------------------------------------------
+create public synonym MSO_PROJ for MSO_OWNER.MSO_PROJ;
+create public synonym MSO_PROJ_DATA_REQ for MSO_OWNER.MSO_PROJ_DATA_REQ;
+create public synonym MSO_EXCL_DATA_STORE for MSO_OWNER.MSO_EXCL_DATA_STORE;
+create public synonym MSO_PROJECT_RULE_SETUP_ASSOC for MSO_OWNER.MSO_PROJECT_RULE_SETUP_ASSOC;
+create public synonym MSO_OPTIMIZER_RESULTS for MSO_OWNER.MSO_OPTIMIZER_RESULTS;
+create public synonym MSO_DIM_KPI for MSO_OWNER.MSO_DIM_KPI;
+create public synonym MSO_DEPT_CONST_MASTER_RULES for MSO_OWNER.MSO_DEPT_CONST_MASTER_RULES;
+create public synonym MSO_SHARD_FIX_MASTER_RULES for MSO_OWNER.MSO_SHARD_FIX_MASTER_RULES;
+create public synonym MSO_SEQ_MASTER_RULES for MSO_OWNER.MSO_SEQ_MASTER_RULES;
+create public synonym MSO_BATCH_REQ_PHASE_MASTER for MSO_OWNER.MSO_BATCH_REQ_PHASE_MASTER;
+create public synonym MSO_SEGMENT_MASTER for MSO_OWNER.MSO_SEGMENT_MASTER;
+create public synonym MSO_STORE_DEPT_CONST_RULES for MSO_OWNER.MSO_STORE_DEPT_CONST_RULES;
+create public synonym MSO_STORE_PRODUCTIVITY_MAP for MSO_OWNER.MSO_STORE_PRODUCTIVITY_MAP;
+create public synonym MSO_FCT_FOOTAGE_BENEFIT_STR_DE for MSO_OWNER.MSO_FCT_FOOTAGE_BENEFIT_STR_DE;
+create public synonym MSO_FCT_CLS_ARR_OPS_DEPT for MSO_OWNER.MSO_FCT_CLS_ARR_OPS_DEPT;
+create public synonym MSO_FCT_SPACE_VOL_STR for MSO_OWNER.MSO_FCT_SPACE_VOL_STR;
+create public synonym MSO_STORE_TREND for MSO_OWNER.MSO_STORE_TREND;
+create public synonym MSO_HALLMARK_FOOTAGE for MSO_OWNER.MSO_HALLMARK_FOOTAGE;
+create public synonym MSO_GROUP_TREND for MSO_OWNER.MSO_GROUP_TREND;
+create public synonym MSO_INSTANCE_DEPT for MSO_OWNER.MSO_INSTANCE_DEPT;
+create public synonym MSO_PROJECT_STORE for MSO_OWNER.MSO_PROJECT_STORE;
+create public synonym MSO_DATA_REQ for MSO_OWNER.MSO_DATA_REQ;
+create public synonym MSO_DATA_REQ_DETL for MSO_OWNER.MSO_DATA_REQ_DETL;
+create public synonym MSO_DATA_REQ_STATUS_MSTR for MSO_OWNER.MSO_DATA_REQ_STATUS_MSTR;
+create public synonym MSO_USER_MASTER for MSO_OWNER.MSO_USER_MASTER;
+create public synonym MSO_RULE_SETUP_MASTER for MSO_OWNER.MSO_RULE_SETUP_MASTER;
+create public synonym MSO_STATUS_MASTER for MSO_OWNER.MSO_STATUS_MASTER;
+create public synonym MSO_INSTANCE for MSO_OWNER.MSO_INSTANCE;
+create public synonym MSO_STORE_FIXT_RULES for MSO_OWNER.MSO_STORE_FIXT_RULES;
+create public synonym MSO_STORE_SHARED_FIXT_RULES for MSO_OWNER.MSO_STORE_SHARED_FIXT_RULES;
+create public synonym MSO_STORE_FIXT_COMPBTY for MSO_OWNER.MSO_STORE_FIXT_COMPBTY;
+create public synonym MSO_BATCH_WRAPPER_DETL for MSO_OWNER.MSO_BATCH_WRAPPER_DETL;
+create public synonym MSO_EXCL_DATA_OPSTUDY for MSO_OWNER.MSO_EXCL_DATA_OPSTUDY;
+create public synonym MSO_EXCL_DATA_DEPT for MSO_OWNER.MSO_EXCL_DATA_DEPT;
+create public synonym MSO_EXCL_PERIOD for MSO_OWNER.MSO_EXCL_PERIOD;
+create public synonym MSO_OPTIMIZER_GEN2_RESULTS for MSO_OWNER.MSO_OPTIMIZER_GEN2_RESULTS;
+
+---------------------------------------------------------------
+--  Macro space Optimization - Creating Public Synonyms 
+--  all the MSO sequences
+---------------------------------------------------------------
+create public synonym MSO_DATA_REQ_ID_SEQ for MSO_OWNER.MSO_DATA_REQ_ID_SEQ;
+create public synonym DATA_REQ_DETL_ID_SEQ for MSO_OWNER.DATA_REQ_DETL_ID_SEQ;
+create public synonym MSO_DATA_REQ_DETL_ID_SEQ for MSO_OWNER.MSO_DATA_REQ_DETL_ID_SEQ;
+create public synonym DEPT_MAST_CONST_RULE_ID_SEQ for MSO_OWNER.DEPT_MAST_CONST_RULE_ID_SEQ;
+create public synonym MSO_SEQ_RULE_ID_SEQ for MSO_OWNER.MSO_SEQ_RULE_ID_SEQ;
+create public synonym SHARED_FIX_MAST_RULE_ID_SEQ for MSO_OWNER.SHARED_FIX_MAST_RULE_ID_SEQ;
+create public synonym INSTANCE_ID_SEQ for MSO_OWNER.INSTANCE_ID_SEQ;
+create public synonym PROJ_RULE_SETUP_ID_SEQ for MSO_OWNER.PROJ_RULE_SETUP_ID_SEQ;
+create public synonym RULE_SETUP_MASTER_ID_SEQ for MSO_OWNER.RULE_SETUP_MASTER_ID_SEQ;
+create public synonym PROJECT_STORE_ID_SEQ for MSO_OWNER.PROJECT_STORE_ID_SEQ;
+create public synonym INSTANCE_DEPT_ID_SEQ for MSO_OWNER.INSTANCE_DEPT_ID_SEQ;
+create public synonym MSO_EXCL_DEPT_ID_SEQ for MSO_OWNER.MSO_EXCL_DEPT_ID_SEQ;
+create public synonym MSO_EXCL_OPSTUDY_ID_SEQ for MSO_OWNER.MSO_EXCL_OPSTUDY_ID_SEQ;
+create public synonym MSO_EXCL_STORE_ID_SEQ for MSO_OWNER.MSO_EXCL_STORE_ID_SEQ;
+create public synonym EXCLUSION_PERIOD_ID_SEQ for MSO_OWNER.EXCLUSION_PERIOD_ID_SEQ;
+create public synonym MSO_BATCH_REQ_PHASE_ID_SEQ for MSO_OWNER.MSO_BATCH_REQ_PHASE_ID_SEQ;
+create public synonym KPI_ID_SEQ for MSO_OWNER.KPI_ID_SEQ;
+create public synonym MSO_STORE_TREND_ID_SEQ for MSO_OWNER.MSO_STORE_TREND_ID_SEQ;
+create public synonym MSO_GROUP_TREND_ID_SEQ for MSO_OWNER.MSO_GROUP_TREND_ID_SEQ;
+create public synonym MSO_PROJ_ID_SEQ for MSO_OWNER.MSO_PROJ_ID_SEQ;
+create public synonym MSO_PROJ_DATA_REQ_ID_SEQ for MSO_OWNER.MSO_PROJ_DATA_REQ_ID_SEQ;
+create public synonym FCT_CLS_ARR_ID_SEQ for MSO_OWNER.FCT_CLS_ARR_ID_SEQ;
+create public synonym FCT_FTAGE_BEN_STR_DEP_ID_SEQ for MSO_OWNER.FCT_FTAGE_BEN_STR_DEP_ID_SEQ;
+create public synonym FCT_SPACE_VOL_STR_ID_SEQ for MSO_OWNER.FCT_SPACE_VOL_STR_ID_SEQ;
+create public synonym OPTIMIZE_RESULT_ID_SEQ for MSO_OWNER.OPTIMIZE_RESULT_ID_SEQ;
+create public synonym MSO_COMPOSITE_CLUST_ID_SEQ for MSO_OWNER.MSO_COMPOSITE_CLUST_ID_SEQ;
+create public synonym MSO_BATCH_WRAP_DETL_ID_SEQ for MSO_OWNER.MSO_BATCH_WRAP_DETL_ID_SEQ;
+create public synonym STATUS_ID_SEQ for MSO_OWNER.STATUS_ID_SEQ;
+create public synonym DEPT_CONST_STORE_RULE_ID_SEQ for MSO_OWNER.DEPT_CONST_STORE_RULE_ID_SEQ;
+create public synonym STORE_FIX_COMPBTY_RULE_ID_SEQ for MSO_OWNER.STORE_FIX_COMPBTY_RULE_ID_SEQ;
+create public synonym FIX_STORE_RULE_ID_SEQ for MSO_OWNER.FIX_STORE_RULE_ID_SEQ;
+create public synonym SHARED_FIX_STORE_RULE_ID_SEQ for MSO_OWNER.SHARED_FIX_STORE_RULE_ID_SEQ;
+create public synonym SEGMENT_MAST_ID_SEQ for MSO_OWNER.SEGMENT_MAST_ID_SEQ;
+create public synonym MSO_STORE_PRODUCT_SEQ_SEQ for MSO_OWNER.MSO_STORE_PRODUCT_SEQ;
+create public synonym MSO_DATA_POINT_ID_SEQ for MSO_OWNER.MSO_DATA_POINT_ID_SEQ;
+create public synonym HALLMRK_FTAGE_BENEFIT_ID_SEQ for MSO_OWNER.HALLMRK_FTAGE_BENEFIT_ID_SEQ;
+create public synonym OPTIMIZE_GEN2_RESULT_ID_SEQ for MSO_OWNER.OPTIMIZE_GEN2_RESULT_ID_SEQ;
+
+
+
+##
